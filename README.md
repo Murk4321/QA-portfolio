@@ -33,7 +33,7 @@ I approach testing with a developer's mindset: I understand how things are built
 
 ### 📱 [Barcode and QR Scanner — Mobile App Testing](./qr-scanner/)
 
-Manual QA of a real Android application from the Google Play Store.
+Manual QA of a real Android application.
 
 - **Type:** Exploratory + Functional Testing
 - **Platform:** Android 16 / Google Pixel 8
@@ -49,7 +49,7 @@ Manual QA of a real Android application from the Google Play Store.
 In-depth QA of a personal Unity game project. As both developer and tester, I had full access to the codebase, which allowed for thorough root cause analysis alongside functional and UI testing.
 
 - **Type:** Functional Testing, UI/UX Testing
-- **Platform:** PC (Windows)
+- **Platform:** PC (Windows 10)
 - **Artifacts:** Test cases, bug reports
 - **Highlights:** Full test coverage of core gameplay loop and UI flows; documented bugs with reproduction steps and expected vs actual behavior
 
