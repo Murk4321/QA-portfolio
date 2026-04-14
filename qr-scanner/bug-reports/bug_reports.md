@@ -247,7 +247,7 @@
 <summary> BUG-007: Generated QR result screen contains unrelated buttons and menu shortcuts </summary>
 
 **Severity: Improvement**  
-**Priority: Low **  
+**Priority: Low**  
 **Environment: Google Pixel 8, Android 16**  
 
 
