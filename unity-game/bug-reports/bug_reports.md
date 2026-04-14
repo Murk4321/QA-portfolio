@@ -1,23 +1,23 @@
 # Bug Reports
 
 <details>
-<summary> BUG-XXX: [Bug title] </summary>
-
-**Severity:**  
-**Priority:**  
-**Environment:**  
-
-**Preconditions:**
-
-**Steps to Reproduce:**
-1.
-2.
-
-**Expected Result:**
-
-**Actual Result:**
-
-**Attachments:**
+  <summary> BUG-XXX: [Bug title] </summary>
+  
+  **Severity:**  
+  **Priority:**  
+  **Environment:**  
+  
+  **Preconditions:**
+  
+  **Steps to Reproduce:**
+  1.
+  2.
+  
+  **Expected Result:**
+  
+  **Actual Result:**
+  
+  **Attachments:**
 
 </details>
 
