@@ -290,10 +290,10 @@
 
 **Actual Result:**
 -	Screen contains unrelated actions such as:
-   - Send to smartwatch
-  -	Themes
-  -	Ads off
-  -	Write to support
+    - Send to smartwatch
+    -	Themes
+    -	Ads off
+    -	Write to support
 
 **Attachments:**
 
