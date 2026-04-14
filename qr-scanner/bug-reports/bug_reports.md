@@ -120,7 +120,7 @@ App handles large input safely:
 **Actual Result:**
 - App shows an internal error when input exceeds ~1862 characters.  
 - No validation or user-friendly message is provided.
-Error log:
+- Error log:
 04-14 17:22:43.342 W System.err:
 at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.makeQR(ResultImageQrFragment.kt:213)
 at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.onCreateView(ResultImageQrFragment.kt:74)
