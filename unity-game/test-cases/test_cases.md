@@ -13,9 +13,6 @@
   
   **Expected Result:**
   
-  **Actual Result:**
-  (To be filled)
-  
   **Status:**
   Pass / Fail / Blocked
 
