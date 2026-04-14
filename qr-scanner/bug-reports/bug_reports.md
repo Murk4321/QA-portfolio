@@ -148,9 +148,9 @@
 
 **Expected Result:**
 -	App should validate input:
-  -	reject invalid formats
-  -	highlight incorrect fields
-  -	prevent QR generation with invalid data
+    -	reject invalid formats
+    -	highlight incorrect fields
+    -	prevent QR generation with invalid data
 -	Generated QR should represent valid and usable payload
 
 **Actual Result:**
@@ -227,9 +227,9 @@
 
 **Expected Result:**
 -	App should clearly confirm that QR was saved, for example:
-  -	navigate to History / Saved screen
-  -	or visually mark QR as saved
-  - or show persistent confirmation
+    -	navigate to History / Saved screen
+    -	or visually mark QR as saved
+    - or show persistent confirmation
 - User should clearly understand that action succeeded
 
 **Actual Result:**
@@ -262,11 +262,11 @@
 
 **Actual Result:**
 -	Screen contains unrelated buttons such as:
-  -	History
-  -	Settings
-  -	Ads off
-  -	Themes
-  -	Send to smartwatch
+    -	History
+    -	Settings
+    -	Ads off
+    -	Themes
+    -	Send to smartwatch
 
 **Attachments:**
 
