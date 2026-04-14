@@ -1,7 +1,5 @@
 # Bug Reports
 
----
-
 ## BUG-XXX: [Bug title]
 
 **Severity:**  
@@ -19,4 +17,27 @@
 **Actual Result:**
 
 **Attachments:**
--
+
+---
+
+### Critical
+
+---
+
+### High
+
+---
+
+### Medium
+
+---
+
+### Low
+
+---
+
+### Improvement
+
+---
+
+
