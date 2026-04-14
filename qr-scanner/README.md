@@ -26,12 +26,13 @@ The following features were tested:
 ---
 
 ## Bugs Summary
-A total of 10 bugs were identified during testing:
+A total of 14 bugs were identified during testing:
 
 - Critical: 1  
-- High: 4  
-- Medium: 3  
-- Low: 2  
+- High: 3  
+- Medium: 5  
+- Low: 2
+- Improvement: 3
 
 ---
 
@@ -41,11 +42,13 @@ Detailed bug reports are available here:
 [bug-reports/bug-reports.md](./bug-reports/bug_reports.md)
 
 Each bug report includes:
-- Title  
+- Title
+- Severity
+- Priority
+- Enviroment
 - Steps to reproduce  
 - Expected result  
 - Actual result  
-- Severity  
 - Screenshots  
 
 ---
