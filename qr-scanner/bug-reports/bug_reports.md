@@ -1,6 +1,7 @@
 # Bug Reports
 
-## BUG-XXX: [Bug title]
+<details>
+<summary> ## BUG-XXX: [Bug title] </summary>
 
 **Severity:**  
 **Priority:**  
@@ -18,7 +19,7 @@
 
 **Attachments:**
 
----
+</details>
 
 ### Critical
 
