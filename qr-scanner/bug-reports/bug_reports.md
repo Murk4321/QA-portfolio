@@ -240,6 +240,28 @@
 **Attachments:**
 
 </details>
+<details>
+<summary> BUG-012: Insufficient spacing between "PRO features" text and feature blocks </summary>
+
+**Severity: Low**  
+**Priority: Low**  
+**Environment: Google Pixel 8, Android 16**  
+
+
+**Steps to Reproduce:**
+1. Open the app
+2. Open the PRO subscription screen
+3. Observe spacing between "PRO features" text and feature blocks
+
+**Expected Result:**
+- There is sufficient spacing between the section title and the feature blocks, ensuring clear visual separation and readability.
+  
+**Actual Result:**
+- Spacing between "PRO features" text and feature blocks is too small, reducing visual clarity and UI hierarchy.
+  
+**Attachments:**
+
+</details>
 
 ### Improvement
 ---
@@ -295,6 +317,24 @@
     -	Ads off
     -	Write to support
 
+**Attachments:**
+
+</details>
+<details>
+<summary> BUG-011: QR code contrast and density may affect scanning reliability </summary>
+
+**Severity: Improvement**  
+**Priority: Low**  
+
+
+**Steps to Reproduce:**
+1. Open the app
+2. Create any QR code
+
+**Expected Result:**
+- QR code is clearly readable and reliably scannable in all conditions.
+**Actual Result:**
+- QR code is scannable, but low contrast and density may affect reliability in some conditions.
 **Attachments:**
 
 </details>
