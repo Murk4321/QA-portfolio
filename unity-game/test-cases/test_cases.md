@@ -17,3 +17,26 @@
   Pass / Fail / Blocked
 
 </details>
+
+---
+## Main Menu
+
+---
+
+## Tutorial
+
+---
+
+## Stage 1
+
+---
+
+## Stage 2
+
+---
+
+## Stage 3
+
+---
+
+## Other
