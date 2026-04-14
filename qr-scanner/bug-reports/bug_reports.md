@@ -37,13 +37,13 @@
 4.	Change current theme
 
 **Expected Result:**
-•	Theme changes successfully
-•	App remains stable
-•	Screen is redrawn without crash
+-	Theme changes successfully
+- App remains stable
+-	Screen is redrawn without crash
 
 **Actual Result:**
-•	App crashes while changing theme
-•	Log shows: java.lang.RuntimeException: Unable to destroy activity {com.qr.barcode.scanner.oleh/com.qr.barcode.scanner.oleh.MainActivity}at com.qr.barcode.scanner.oleh.MainActivity.onDestroy(MainActivity.kt:435)
+-	App crashes while changing theme
+-	Log shows: java.lang.RuntimeException: Unable to destroy activity {com.qr.barcode.scanner.oleh/com.qr.barcode.scanner.oleh.MainActivity}at com.qr.barcode.scanner.oleh.MainActivity.onDestroy(MainActivity.kt:435)
 
 **Attachments:**
 
