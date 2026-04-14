@@ -67,13 +67,13 @@
 5.	Tap on the edge/side of “Generate QR code” button
 
 **Expected Result:**
-•	The entire button surface is tappable
-•	Tapping anywhere within the button boundaries triggers the action 
+-	The entire button surface is tappable
+-	Tapping anywhere within the button boundaries triggers the action 
 
 **Actual Result:**
-•	Only the text label area registers the tap
-•	Tapping the button edges or padding area does nothing
-•	Button hit area is significantly smaller than its visual bounds
+-	Only the text label area registers the tap
+-	Tapping the button edges or padding area does nothing
+-	Button hit area is significantly smaller than its visual bounds
 
 **Attachments:**
 
@@ -91,10 +91,10 @@
 2.	Scan any product barcode 
 
 **Expected Result:**
-•	App retrieves and displays comprehensive product information (name, brand, description, etc.) as described in the app description
+-	App retrieves and displays comprehensive product information (name, brand, description, etc.) as described in the app description
 
 **Actual Result:**
-•	After scanning, the app displays only the numeric barcode value (raw data) without any additional product information.
+-	After scanning, the app displays only the numeric barcode value (raw data) without any additional product information.
 
 **Attachments:**
 
@@ -119,14 +119,14 @@
 6.	Scan generated QR
 
 **Expected Result:**
-•	User receives clear feedback that the alarm has been successfully created
-•	Confirmation message, notification, or UI indication is shown
-•	User can understand that the action was completed
+-	User receives clear feedback that the alarm has been successfully created
+-	Confirmation message, notification, or UI indication is shown
+-	User can understand that the action was completed
 
 **Actual Result:**
-•	No feedback or confirmation is shown after scanning the QR
-•	Alarm may be created, but user is not informed about it
-•	User cannot understand whether the action was successful
+-	No feedback or confirmation is shown after scanning the QR
+-	Alarm may be created, but user is not informed about it
+-	User cannot understand whether the action was successful
 
 **Attachments:**
 
@@ -147,14 +147,14 @@
 5.	Generate QR
 
 **Expected Result:**
-•	App should validate input:
-  o	reject invalid formats
-  o	highlight incorrect fields
-  o	prevent QR generation with invalid data
-•	Generated QR should represent valid and usable payload
+-	App should validate input:
+  -	reject invalid formats
+  -	highlight incorrect fields
+  -	prevent QR generation with invalid data
+-	Generated QR should represent valid and usable payload
 
 **Actual Result:**
-•	App allows generation with invalid or malformed data
+-	App allows generation with invalid or malformed data
 
 **Attachments:**
 
@@ -175,11 +175,11 @@
 5.	Check available action buttons
 
 **Expected Result:**
-•	Open button should be shown only for actionable content such as URL
-•	Non-URL content should show only relevant actions
+-	Open button should be shown only for actionable content such as URL
+-	Non-URL content should show only relevant actions
 
 **Actual Result:**
-•	Open button is displayed even when scanned content is not a URL
+-	Open button is displayed even when scanned content is not a URL
 **Attachments:**
 
 </details>
@@ -198,12 +198,12 @@
 4.	Observe confirmation dialog buttons
 
 **Expected Result:**
-•	Button labels should be clearly readable
-•	Contrast should meet accessibility and usability standards
+-	Button labels should be clearly readable
+-	Contrast should meet accessibility and usability standards
 
 **Actual Result:**
-•	White text is placed on bright yellow buttons
-•	Measured contrast ratio: 1.08:1, which critically fails WCAG 2.1 AA requirement of 4.5:1 for normal text
+-	White text is placed on bright yellow buttons
+-	Measured contrast ratio: 1.08:1, which critically fails WCAG 2.1 AA requirement of 4.5:1 for normal text
 
 **Attachments:**
 
@@ -226,16 +226,16 @@
 4.	Observe app behavior
 
 **Expected Result:**
-•	App should clearly confirm that QR was saved, for example:
-  o	navigate to History / Saved screen
-  o	or visually mark QR as saved
-  o	or show persistent confirmation
-•	User should clearly understand that action succeeded
+-	App should clearly confirm that QR was saved, for example:
+  -	navigate to History / Saved screen
+  -	or visually mark QR as saved
+  - or show persistent confirmation
+- User should clearly understand that action succeeded
 
 **Actual Result:**
-•	Only a short toast message is shown
-•	No navigation or visible state change
-•	Screen remains the same
+-	Only a short toast message is shown
+-	No navigation or visible state change
+-	Screen remains the same
 
 **Attachments:**
 
@@ -257,16 +257,16 @@
 3.	Review visible action buttons
 
 **Expected Result:**
-•	Generated QR result screen should include only relevant actions, such as Save, Share, optional Edit/Color, Generate New
-•	Navigation and monetization actions should not distract from core flow
+-	Generated QR result screen should include only relevant actions, such as Save, Share, optional Edit/Color, Generate New
+-	Navigation and monetization actions should not distract from core flow
 
 **Actual Result:**
-•	Screen contains unrelated buttons such as:
-  o	History
-  o	Settings
-  o	Ads off
-  o	Themes
-  o	Send to smartwatch
+-	Screen contains unrelated buttons such as:
+  -	History
+  -	Settings
+  -	Ads off
+  -	Themes
+  -	Send to smartwatch
 
 **Attachments:**
 
@@ -285,15 +285,15 @@
 3.	Review available action buttons
 
 **Expected Result:**
-•	Screen should contain only actions relevant to scanned result
-•	Example: Open, Copy, Share
+-	Screen should contain only actions relevant to scanned result
+-	Example: Open, Copy, Share
 
 **Actual Result:**
-•	Screen contains unrelated actions such as:
-  o	Send to smartwatch
-  o	Themes
-  o	Ads off
-  o	Write to support
+-	Screen contains unrelated actions such as:
+  -	Send to smartwatch
+  -	Themes
+  -	Ads off
+  -	Write to support
 
 **Attachments:**
 
