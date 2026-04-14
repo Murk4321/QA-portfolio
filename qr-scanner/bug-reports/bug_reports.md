@@ -1,7 +1,7 @@
 # Bug Reports
 
 <details>
-<summary> ## BUG-XXX: [Bug title] </summary>
+<summary> BUG-XXX: [Bug title] </summary>
 
 **Severity:**  
 **Priority:**  
