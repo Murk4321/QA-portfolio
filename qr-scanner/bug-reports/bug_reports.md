@@ -1,25 +1,5 @@
 # Bug Reports
 
-<details>
-<summary> BUG-XXX: [Bug title] </summary>
-
-**Severity:**  
-**Priority:**  
-**Environment: Google Pixel 8, Android 16**  
-
-
-**Steps to Reproduce:**
-1.
-2.
-
-**Expected Result:**
-
-**Actual Result:**
-
-**Attachments:**
-
-</details>
-
 ### Critical
 ---
 <details>
