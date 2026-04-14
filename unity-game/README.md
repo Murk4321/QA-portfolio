@@ -80,11 +80,11 @@ Bug reports are available here:
 
 bug-reports/
 
-Each bug report includes:
-- Title  
+- Title
+- Severity
+- Priority
+- Enviroment
 - Steps to reproduce  
 - Expected result  
 - Actual result  
-- Severity  
-- Environment  
-- Screenshots / videos  
+- Screenshots  
