@@ -25,6 +25,7 @@
 ---
 ## Main Menu
 
+### High ###
 <details> 
   <summary>TC-MM-001: Play button starts the game </summary>
 
@@ -40,6 +41,9 @@
   Pass
 
 </details>
+
+### Medium ###
+
 <details> 
   <summary>TC-MM-002: Quit button closes the game </summary>
 
@@ -55,6 +59,9 @@
   Pass
 
 </details>
+
+### Low ###
+
 <details> 
   <summary>TC-MM-003: Disclaimer is shown in main menu </summary>
 
