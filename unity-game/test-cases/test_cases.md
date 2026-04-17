@@ -54,7 +54,7 @@
 
 </details>
 <details> 
-  <summary>TC-MM-04: Background animation is active </summary>
+  <summary>TC-MM-004: Background animation is active </summary>
 
   **Priority: Low**
   
