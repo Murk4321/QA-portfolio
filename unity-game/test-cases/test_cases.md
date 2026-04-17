@@ -703,21 +703,116 @@
 <details> 
   <summary>TC-S3-005: Growing demon flowers </summary>
 
-  **Priority: **
+  **Priority: High**
   
   **Preconditions:**
-  -
+  - There is at least one bloodied tile on map
+  - Player has at least one flower in pouch
 
-  **Test Data:**
-  
   **Steps:**
-  1.
-  2.
+  1. Move towards bloodied tile
+  2. Select flower pouch
+  3. Press RMB on bloodied tile
+  4. Wait for flower to grow
   
   **Expected Result:**
+  - Flower gets planted
+  - After approximately 45 seconds it grows fully
+  - Central part of flower starts to glow, indicating it's ready
   
   **Status:**
-  Pass / Fail / Blocked
+  Pass
+
+</details>
+<details> 
+  <summary>TC-S3-006: Flobs flee after seeing crime </summary>
+
+  **Priority: High**
+  
+  **Preconditions:**
+  - Player killed one of NPCs
+  
+  **Steps:**
+  1. Select body or bloodied knife
+  2. Approach any NPC flob
+  
+  **Expected Result:**
+  - NPC should run away
+  - That NPC will run away if he sees you again
+  
+  **Status:**
+  Pass
+
+</details>
+<details> 
+  <summary>TC-S3-007: Sacrificing demon flowers</summary>
+
+  **Priority: High**
+  
+  **Preconditions:**
+  - Stage 3 started
+  - Player has grown at least one flower
+  
+  **Steps:**
+  1. Choose a flower in inventory
+  2. Move towards pentagram
+  3. Press RMB on pentagram
+  
+  **Expected Result:**
+  - Flower is removed from inventory
+  - UI task counter is increased by 1
+  - Timer resets
+  
+  **Status:**
+  Pass
+
+</details>
+<details> 
+  <summary>TC-S3-008: Bad ending </summary>
+
+  **Priority: High**
+  
+  **Preconditions:**
+  - Entered stage 3
+  
+  **Steps:**
+  1. Kill 10 NPC flobs
+  
+  **Expected Result:**
+  With each kill:
+  - Screen gradually darkens
+  - Music gradually slows down
+  - Screen shake gradually increases
+  - Player eyes move faster and faster
+  After 10th kill:
+  - Move player to game over scene
+  - Cause: went crazy
+  
+  **Status:**
+  Pass
+
+</details>
+<details> 
+  <summary>TC-S3-009: Good ending </summary>
+
+  **Priority: High**
+  
+  **Preconditions:**
+  - Sacrificed at least one demon flower
+  
+  **Steps:**
+  1. Find blue flowers that were spawned in random place
+  2. Collect the flowers with flower pouch
+  3. Grow new flower using these flowers
+  4. Sacrifice that flower after it's fully grown
+  
+  **Expected Result:**
+  - Demon gets defeated
+  - Victory dialogue starts
+  - Player is moved to game over scene (win)
+  
+  **Status:**
+  Pass
 
 </details>
 
