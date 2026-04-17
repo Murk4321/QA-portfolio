@@ -1,6 +1,6 @@
 # QA Portfolio — Yevhenii Suprunenko
 
-📍 Vyshhorod, Kyiv Oblast &nbsp;|&nbsp; 📧 seamoregs@gmail.com &nbsp;|&nbsp; 📞 +380 93 619 6475
+📍 Kyiv Oblast &nbsp;|&nbsp; 📧 seamoregs@gmail.com &nbsp;
 
 ---
 
