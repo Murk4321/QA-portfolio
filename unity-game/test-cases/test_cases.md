@@ -1,28 +1,4 @@
-# Test Cases
----
 
-<details> 
-  <summary>TC-XXX: [Test Case Name] </summary>
-
-  **Priority:**
-  
-  **Preconditions:**
-  -
-
-  **Test Data:**
-  
-  **Steps:**
-  1.
-  2.
-  
-  **Expected Result:**
-  
-  **Status:**
-  Pass / Fail / Blocked
-
-</details>
-
----
 ## Main Menu
 
 ### High ###
