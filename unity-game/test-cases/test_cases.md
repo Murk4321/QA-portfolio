@@ -243,8 +243,6 @@
   **Preconditions:**
   - Watered 4 dug up dirt spots
 
-  **Test Data:**
-  
   **Steps:**
   1. Choose flower pouch
   2. Move towards any flower tile
@@ -342,7 +340,7 @@
 
 </details>
 <details> 
-  <summary>TC-TUT-014: Tools are unavailable until needed </summary>
+  <summary>TC-TUT-014: Tools are unavailable until needed ⚠️</summary>
 
   **Priority: Medium**
   
@@ -351,6 +349,9 @@
   
   **Expected Result:**
   Player can choose only required tools and can't use other
+
+  **Actual Result:**
+  Player can choose and use any tool from the beginning 
   
   **Status:**
   Fail
@@ -428,7 +429,7 @@
   **Priority: High**
   
   **Preconditions:**
-  - Sacrificed 4 or 9 flowers
+  - Sacrificed exactly 4 or exactly 9 flowers
   
   **Steps:**
   1. Sacrifice the last of 4 or 9 flowers
@@ -616,8 +617,6 @@
   
   **Preconditions:**
   - Enter stage 3
-
-  **Test Data:**
   
   **Steps:**
   1. Enter stage 3
