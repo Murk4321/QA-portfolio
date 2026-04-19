@@ -38,7 +38,9 @@
   <summary>BUG-004: Tutorial can be broken by performing actions out of order</summary>
 
   **Severity:** High
+
   **Priority:** High
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -63,7 +65,9 @@
   <summary>BUG-005: Item state is not reset when transitioning from tutorial to game</summary>
 
   **Severity:** High
+  
   **Priority:** High
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -87,7 +91,9 @@
   <summary>BUG-016: Requested flower color may never spawn, making stage uncompletable through no fault of the player</summary>
 
   **Severity:** High
+  
   **Priority:** High
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -118,7 +124,9 @@
   <summary>BUG-003: Player can interact with the world during dialogue</summary>
 
   **Severity:** Medium
+  
   **Priority:** Medium
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -141,7 +149,9 @@
   <summary>BUG-008: Game cannot be paused</summary>
 
   **Severity:** Medium
+  
   **Priority:** Medium
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -164,7 +174,9 @@
   <summary>BUG-009: No settings menu for audio and music control</summary>
 
   **Severity:** Medium
+  
   **Priority:** Medium
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -187,7 +199,9 @@
   <summary>BUG-012: Map lacks landmarks, player can get lost</summary>
 
   **Severity:** Medium
+  
   **Priority:** Low
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -211,7 +225,9 @@
   <summary>BUG-013: No in-game exit option — game can only be closed via Alt+F4</summary>
 
   **Severity:** Medium
+  
   **Priority:** Medium
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -234,7 +250,9 @@
   <summary>BUG-015: Scene transition timing is broken — screen briefly reappears before scene changes</summary>
 
   **Severity:** Medium
+  
   **Priority:** Medium
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -262,7 +280,9 @@
   <summary>BUG-001: Visual issues in Main Menu</summary>
 
   **Severity:** Low
+  
   **Priority:** Low
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -289,7 +309,9 @@
   <summary>BUG-006: Footstep particles render above NPCs instead of on the ground</summary>
 
   **Severity:** Low
+  
   **Priority:** Low
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -313,7 +335,9 @@
   <summary>BUG-007: Character shadow flips to opposite side when rotating</summary>
 
   **Severity:** Low
+  
   **Priority:** Low
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -337,7 +361,9 @@
   <summary>BUG-010: Action availability indicator does not specify which mouse button to use</summary>
 
   **Severity:** Low
+  
   **Priority:** Low
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -360,7 +386,9 @@
   <summary>BUG-011: Water tile edges are too straight and inconsistent with game art style</summary>
 
   **Severity:** Low
+  
   **Priority:** Low
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
@@ -383,7 +411,9 @@
   <summary>BUG-014: Flowers wither instantly with no animation</summary>
 
   **Severity:** Low
+  
   **Priority:** Low
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
