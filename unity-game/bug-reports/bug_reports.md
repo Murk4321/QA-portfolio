@@ -302,7 +302,7 @@
   - Disclaimer block has high visual weight and draws attention away from the Play button
   - Buttons do not look interactive — no visual cues indicating they are clickable
 
-  **Attachments:** Screenshot of main menu recommended
+  **Attachments:** [Screenshot](BUG-001.png)
 
 </details>
 <details>
@@ -328,7 +328,7 @@
   **Actual Result:**
   Footstep particles render above NPCs, appearing to float over them
 
-  **Attachments:** Screenshot recommended
+  **Attachments:** [Screenshot](BUG-006.png)
 
 </details>
 <details>
@@ -354,7 +354,7 @@
   **Actual Result:**
   Shadow flips to the opposite side when the character rotates, breaking visual consistency
 
-  **Attachments:** Screenshot recommended
+  **Attachments:** [Screenshot 1](BUG-007-1.png) [Screenshot 2](BUG-007-2.png)
 
 </details>
 <details>
@@ -379,7 +379,7 @@
   **Actual Result:**
   Indicator only shows that an action is available, without specifying LMB or RMB
 
-  **Attachments:** Screenshot recommended
+  **Attachments:** [Screenshot](BUG-010.png)
 
 </details>
 <details>
@@ -404,7 +404,7 @@
   **Actual Result:**
   Water tile edges are unnaturally straight and visually inconsistent with the rest of the art style
 
-  **Attachments:** Screenshot recommended
+  **Attachments:** [Screenshot](BUG-011.png)
 
 </details>
 <details>
