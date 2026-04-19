@@ -22,9 +22,9 @@ I approach testing with a developer's mindset: I understand how things are built
 
 | Area | Details |
 |---|---|
-| **Testing** | Manual Testing, Exploratory Testing, Functional Testing, Regression Testing, Test Case Design, Bug Reporting, Bug Lifecycle |
-| **Technical** | Root Cause Analysis, SDLC, Basic SQL, OOP |
-| **Tools** | Jira, GitHub, Android Studio, Visual Studio, adb |
+| **Testing** | Manual Testing, Exploratory Testing, Functional Testing, Regression Testing, Negative Testing, Smoke Testing, Sanity Testing, UI/UX Testing, Accessibility Testing, Black Box Testing, White Box Testing, Risk Based Testing, Boundary Value Analysis, Test Case Design, Bug Reporting, Bug Lifecycle |
+| **Technical** | Root Cause Analysis, SDLC, OOP |
+| **Tools** | Jira, GitHub, ShareX, WebAIM, Markdown, adb, Android Studio, Visual Studio |
 | **Programming** | C#, C/C++, Python |
 
 ---
@@ -37,21 +37,21 @@ Manual QA of a real Android application.
 
 - **Type:** Exploratory + Functional Testing
 - **Platform:** Android 16 / Google Pixel 8
-- **Artifacts:** 10 bug reports (Jira), covering Critical → Low severity
-- **Highlights:** Found a runtime crash with stack trace, identified a WCAG 2.1 AA contrast violation (1.08:1 vs required 4.5:1), validated app behavior against its own Play Store feature description
+- **Artifacts:** 14 bug reports covering Critical → Improvement severity
+- **Highlights:** Found a runtime crash with stack trace, identified a WCAG 2.1 AA contrast violation (1.08:1 vs required 4.5:1), validated app behavior against its own Play Store feature description, applied Boundary Value Analysis to identify input length limit at ~1862 characters
 
 → [View Bug Reports](./qr-scanner/bug-reports/)
 
 ---
 
-### 🎮 [Unity Game — QA Documentation](./unity-game/)
+### 🎮 [The Curse of Flobs — Unity Game QA](./unity-game/)
 
-In-depth QA of a personal Unity game project. As both developer and tester, I had full access to the codebase, which allowed for thorough root cause analysis alongside functional and UI testing.
+In-depth QA of a Unity game created solo in 5 days for a game jam. As both developer and tester, I had full access to the codebase, which allowed for thorough root cause analysis alongside functional and UI testing.
 
-- **Type:** Functional Testing, UI/UX Testing
-- **Platform:** PC (Windows 10)
-- **Artifacts:** Test cases, bug reports
-- **Highlights:** Full test coverage of core gameplay loop and UI flows; documented bugs with reproduction steps and expected vs actual behavior
+- **Type:** Functional Testing, UI/UX Testing, White Box Testing
+- **Platform:** PC (Windows 10 22H2), Unity Build
+- **Artifacts:** 43 test cases across 5 modules, 16 bug reports
+- **Highlights:** Full test coverage of core gameplay loop and all 4 stages; identified a game-breaking tutorial progression bug caused by missing input lock; documented reproducible stage-blocking issue where random color spawning could make a required stage objective uncompletable
 
 → [View Test Cases](./unity-game/test-cases/) &nbsp;|&nbsp; [View Bug Reports](./unity-game/bug-reports/)
 
