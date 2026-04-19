@@ -190,6 +190,7 @@ at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.onCreateView(ResultImage
 
 **Actual Result:**
 -	Open button is displayed even when scanned content is not a URL
+  
 **Attachments:** [Screenshot](BUG-006.png)
 
 </details>
