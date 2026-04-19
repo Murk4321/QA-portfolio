@@ -11,7 +11,9 @@
   <summary>BUG-002: Player can use tools before they are unlocked by tutorial stage</summary>
 
   **Severity:** High
+  
   **Priority:** High
+  
   **Environment:** Windows 10 22H2, 1080p
 
   **Preconditions:**
