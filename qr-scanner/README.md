@@ -8,29 +8,29 @@ The goal was to perform manual testing, identify defects, and document them foll
 ---
 
 ## Test Environment
-- Device: Google Pixel 8  
-- OS: Android 16  
-- Testing type: Manual testing  
+- Device: Google Pixel 8
+- OS: Android 16
+- Testing type: Manual testing
 
 ---
 
 ## Scope of Testing
 The following features were tested:
 
-- QR code scanning  
-- Barcode scanning  
-- QR code generation  
-- History functionality  
-- UI/UX behavior  
+- QR code scanning
+- Barcode scanning
+- QR code generation
+- History functionality
+- UI/UX behavior
 
 ---
 
 ## Bugs Summary
 A total of 14 bugs were identified during testing:
 
-- Critical: 1  
-- High: 3  
-- Medium: 5  
+- Critical: 1
+- High: 3
+- Medium: 5
 - Low: 2
 - Improvement: 3
 
@@ -39,29 +39,29 @@ A total of 14 bugs were identified during testing:
 ## Bug Reports
 Detailed bug reports are available here:
 
-[bug-reports/bug-reports.md](./bug-reports/bug_reports.md)
+[bug-reports/bug_reports.md](./bug-reports/bug_reports.md)
 
 Each bug report includes:
 - Title
 - Severity
 - Priority
-- Enviroment
-- Steps to reproduce  
-- Expected result  
-- Actual result  
-- Screenshots  
+- Environment
+- Steps to Reproduce
+- Expected Result
+- Actual Result
+- Attachments
 
 ---
 
 ## Tools Used
-- Manual testing  
-- Android device  
-- GitHub  
-- Jira-style bug reporting  
+- Manual testing
+- Android device
+- GitHub
+- Jira-style bug reporting
 
 ---
 
 ## Screenshots
 All screenshots can be found here:
 
-bug-reports/screenshots/
+`bug-reports/screenshots/`
