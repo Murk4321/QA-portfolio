@@ -25,7 +25,7 @@
 -	App crashes while changing theme
 -	Log shows: java.lang.RuntimeException: Unable to destroy activity {com.qr.barcode.scanner.oleh/com.qr.barcode.scanner.oleh.MainActivity}at com.qr.barcode.scanner.oleh.MainActivity.onDestroy(MainActivity.kt:435)
 
-**Attachments:**
+**Attachments:** [Video](BUG-001-1.mp4) [Console screenshot](BUG-001-2.png)
 
 </details>
 
@@ -55,7 +55,7 @@
 -	Tapping the button edges or padding area does nothing
 -	Button hit area is significantly smaller than its visual bounds
 
-**Attachments:**
+**Attachments:** [Screenshot](BUG-002.png)
 
 </details>
 <details>
@@ -105,7 +105,7 @@ App handles large input safely:
 at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.makeQR(ResultImageQrFragment.kt:213)
 at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.onCreateView(ResultImageQrFragment.kt:74)
 
-**Attachments:**
+**Attachments:** [Screenshot](BUG-014-1.png) [Console screenshot](BUG-014-2.png)
 
 </details>
 
@@ -190,7 +190,7 @@ at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.onCreateView(ResultImage
 
 **Actual Result:**
 -	Open button is displayed even when scanned content is not a URL
-**Attachments:**
+**Attachments:** [Screenshot](BUG-006.png)
 
 </details>
 <details>
@@ -215,7 +215,7 @@ at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.onCreateView(ResultImage
 -	White text is placed on bright yellow buttons
 -	Measured contrast ratio: 1.08:1, which critically fails WCAG 2.1 AA requirement of 4.5:1 for normal text
 
-**Attachments:**
+**Attachments:** [Screenshot](BUG-009.png)
 
 </details>
 <details>
@@ -296,7 +296,7 @@ OR
 **Actual Result:**
 - Spacing between "PRO features" text and feature blocks is too small, reducing visual clarity and UI hierarchy.
   
-**Attachments:**
+**Attachments:** [Screenshot](BUG-012.png)
 
 </details>
 
@@ -327,7 +327,7 @@ OR
     -	Themes
     -	Send to smartwatch
 
-**Attachments:**
+**Attachments:** [Screenshot](BUG-007.png)
 
 </details>
 <details>
@@ -354,7 +354,7 @@ OR
     -	Ads off
     -	Write to support
 
-**Attachments:**
+**Attachments:** [Screenshot](BUG-008.png)
 
 </details>
 <details>
