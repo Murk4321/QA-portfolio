@@ -107,6 +107,7 @@
   **Attachments:** -
 
 </details>
+
 ---
 
 ### Medium
@@ -250,6 +251,7 @@
   **Attachments:** -
 
 </details>
+
 ---
 
 ### Low
@@ -398,9 +400,6 @@
   **Attachments:** -
 
 </details>
----
-
-### Improvement
 
 ---
 
