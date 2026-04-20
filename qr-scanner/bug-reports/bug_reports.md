@@ -80,32 +80,58 @@
 
 </details>
 <details>
-<summary> BUG-014: Error occurs when generating QR with input longer than ~1862 characters </summary>
+<summary>BUG-014: QR generation fails silently when data exceeds rendering capacity — user is redirected to result screen with no code displayed</summary>
 
-**Severity: High**  
-**Priority: High**  
-**Environment: Google Pixel 8, Android 16**  
+  **Severity:** High
+  **Priority:** High
+  **Environment:** Google Pixel 8, Android 16
 
+  **Steps to Reproduce:**
+  1. Open any QR generation section (e.g. Link/URL)
+  2. Enter input that exceeds QR rendering capacity (2000 - 2500 symbols except numbers)
+  3. Tap "Generate QR"
 
-**Steps to Reproduce:**
-1. Open "URL/Link" section
-2. Enter text longer than ~1862 characters
-3. Tap "Generate QR"
+  **Expected Result:**
+  - App displays a clear error message informing the user that the input is too large to generate a QR code
+  - User remains on the input screen and can adjust their input
 
-**Expected Result:**
-App handles large input safely:
-- Either prevents generation
-- QR is generated successfully within supported limits
-
-**Actual Result:**
-- App shows an internal error when input exceeds ~1862 characters.  
-- No validation or user-friendly message is provided.
-- Error log:
-04-14 17:22:43.342 W System.err:
-at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.makeQR(ResultImageQrFragment.kt:213)
-at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.onCreateView(ResultImageQrFragment.kt:74)
+  **Actual Result:**
+  - App redirects the user to the result screen as if generation was successful
+  - No QR code is displayed on the result screen
+  - No error message or feedback is shown to the user
+  - Error is only visible in the console log, which is inaccessible to end users
 
 **Attachments:** [Screenshot](BUG-014-1.png) [Console screenshot](BUG-014-2.png)
+
+</details>
+<details>
+<summary>BUG-015: Input fields expand and push UI elements out of screen bounds in multiple sections</summary>
+
+  **Severity:** High
+  **Priority:** High
+  **Environment:** Google Pixel 8, Android 16
+
+  **Preconditions:**
+  - Any affected QR generation section is open
+
+  **Steps to Reproduce:**
+  1. Open any of the affected sections: Text, Contact, WiFi
+  2. Enter a large amount of text into any input field
+  3. Observe layout behavior
+
+  **Expected Result:**
+  - Input fields expand within their containers without affecting other UI elements
+  - "Generate QR" button remains visible and accessible at all times
+
+  **Actual Result:**
+  - Input fields expand and push surrounding UI elements out of position:
+    - Text: input field expands downward, "Generate QR" button is pushed off-screen
+    - Contact: two fields expand downward pushing the button off-screen, two fields shift left
+    - WiFi: input fields expand downward, "Generate QR" button is pushed off-screen
+  - In affected sections where button goes off-screen, QR generation becomes inaccessible without scrolling
+  - Behavior is inconsistent across sections — URL section handles large input without layout issues
+
+  **Attachments:** Screenshots recommended for Text, Contact, and WiFi sections
 
 </details>
 
@@ -220,29 +246,31 @@ at com.qr.barcode.scanner.oleh.ui.ResultImageQrFragment.onCreateView(ResultImage
 
 </details>
 <details>
-<summary> BUG-013: No input length validation in QR generation fields </summary>
+<summary>BUG-013: Input length limit significantly exceeds actual QR generation capacity in multiple sections</summary>
 
-**Severity: Medium**  
-**Priority: High**  
-**Environment: Google Pixel 8, Android 16**  
+  **Severity:** Medium
+  **Priority:** Medium
+  **Environment:** Google Pixel 8, Android 16
 
+  **Preconditions:**
+  - Any affected QR generation section is open
 
-**Steps to Reproduce:**
-1. Open any QR generation section (Text, Email, SMS, Link/URL, Contact, Phone, WiFi)
-2. Enter a very long input (no apparent limit)
-3. Observe input behavior
+  **Steps to Reproduce:**
+  1. Open any of the affected sections: Email, SMS, Link/URL, Contact, Phone
+  2. Fill input field(s) to maximum allowed length
+  3. Tap "Generate QR"
 
-**Expected Result:**
-Input is validated:
-- Character limit is enforced
-OR
-- User receives a validation message when exceeding allowed length
-  
-**Actual Result:**
-- No input length restriction is applied.  
-- User can enter an unlimited number of characters without any validation or warning.
-  
-**Attachments:**
+  **Expected Result:**
+  - Input length limit reflects actual QR generation capacity
+  - User is warned before attempting to generate with data that exceeds QR limits
+
+  **Actual Result:**
+  - App allows input well beyond actual QR generation capacity without any warning
+  - QR generation fails silently when data exceeds rendering limits
+  - Affected sections: Email, SMS, Link/URL, Contact, Phone
+  - Alarm section is not affected — limit is within reasonable bounds
+
+  **Attachments:**
 
 </details>
 
