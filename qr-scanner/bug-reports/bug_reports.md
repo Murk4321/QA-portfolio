@@ -335,7 +335,7 @@
     -	Themes
     -	Send to smartwatch
 
-**Attachments:** [Screenshot](BUG-006.png)
+**Attachments:**
 
 </details>
 <details>
