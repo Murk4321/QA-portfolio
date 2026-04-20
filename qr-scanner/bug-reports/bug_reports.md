@@ -59,28 +59,7 @@
 
 </details>
 <details>
-<summary> BUG-004: Barcode scanner returns only numeric value instead of product details </summary>
-
-**Severity: High**  
-**Priority: Medium**  
-**Environment: Google Pixel 8, Android 16**  
-
-
-**Steps to Reproduce:**
-1.	Open the app 
-2.	Scan any product barcode 
-
-**Expected Result:**
--	App retrieves and displays comprehensive product information (name, brand, description, etc.) as described in the app description
-
-**Actual Result:**
--	After scanning, the app displays only the numeric barcode value (raw data) without any additional product information.
-
-**Attachments:**
-
-</details>
-<details>
-<summary>BUG-014: QR generation fails silently when data exceeds rendering capacity — user is redirected to result screen with no code displayed</summary>
+<summary>BUG-013: QR generation fails silently when data exceeds rendering capacity — user is redirected to result screen with no code displayed</summary>
 
   **Severity:** High
   
@@ -107,7 +86,7 @@
 
 </details>
 <details>
-<summary>BUG-015: Input fields expand and push UI elements out of screen bounds in multiple sections</summary>
+<summary>BUG-014: Input fields expand and push UI elements out of screen bounds in multiple sections</summary>
 
   **Severity:** High
   
@@ -169,7 +148,7 @@
 
 </details>
 <details>
-<summary> BUG-005: QR generator does not validate input data and allows invalid or malformed payloads </summary>
+<summary> BUG-004: QR generator does not validate input data and allows invalid or malformed payloads </summary>
 
 **Severity: Medium**  
 **Priority: Medium**  
@@ -197,7 +176,7 @@
 
 </details>
 <details>
-<summary> BUG-006: Open button is displayed for non-URL entries in history </summary>
+<summary> BUG-005: Open button is displayed for non-URL entries in history </summary>
 
 **Severity: Medium**  
 **Priority: Low**  
@@ -247,7 +226,7 @@
 
 </details>
 <details>
-<summary>BUG-013: Input length limit significantly exceeds actual QR generation capacity in multiple sections</summary>
+<summary>BUG-012: Input length limit significantly exceeds actual QR generation capacity in multiple sections</summary>
 
   **Severity:** Medium
   
@@ -278,7 +257,7 @@
 ### Low
 ---
 <details>
-<summary> BUG-010: Save action provides insufficient feedback </summary>
+<summary> BUG-009: Save action provides insufficient feedback </summary>
 
 **Severity: Low**  
 **Priority: Low**  
@@ -307,7 +286,7 @@
 
 </details>
 <details>
-<summary> BUG-012: Insufficient spacing between "PRO features" text and feature blocks </summary>
+<summary> BUG-011: Insufficient spacing between "PRO features" text and feature blocks </summary>
 
 **Severity: Low**  
 **Priority: Low**  
@@ -332,7 +311,7 @@
 ### Improvement
 ---
 <details>
-<summary> BUG-007: Generated QR result screen contains unrelated buttons and menu shortcuts </summary>
+<summary> BUG-006: Generated QR result screen contains unrelated buttons and menu shortcuts </summary>
 
 **Severity: Improvement**  
 **Priority: Low**  
@@ -360,7 +339,7 @@
 
 </details>
 <details>
-<summary> BUG-008: QR scanned result screen contains unrelated action buttons </summary>
+<summary> BUG-007: QR scanned result screen contains unrelated action buttons </summary>
 
 **Severity: Improvement**  
 **Priority: Low**  
@@ -387,7 +366,7 @@
 
 </details>
 <details>
-<summary> BUG-011: QR code contrast and density may affect scanning reliability </summary>
+<summary> BUG-010: QR code contrast and density may affect scanning reliability </summary>
 
 **Severity: Improvement**  
 **Priority: Low**  
