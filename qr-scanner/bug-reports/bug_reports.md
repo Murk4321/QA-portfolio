@@ -144,8 +144,6 @@
 -	Alarm may be created, but user is not informed about it
 -	User cannot understand whether the action was successful
 
-**Attachments:**
-
 </details>
 <details>
 <summary> BUG-004: QR generator does not validate input data and allows invalid or malformed payloads </summary>
@@ -171,8 +169,6 @@
 
 **Actual Result:**
 -	App allows generation with invalid or malformed data
-
-**Attachments:**
 
 </details>
 <details>
@@ -249,8 +245,6 @@
   - Affected sections: Email, SMS, Link/URL, Contact, Phone
   - Alarm section is not affected — limit is within reasonable bounds
 
-  **Attachments:**
-
 </details>
 
 
@@ -281,8 +275,6 @@
 -	Only a short toast message is shown
 -	No navigation or visible state change
 -	Screen remains the same
-
-**Attachments:**
 
 </details>
 <details>
@@ -335,8 +327,6 @@
     -	Themes
     -	Send to smartwatch
 
-**Attachments:**
-
 </details>
 <details>
 <summary> BUG-007: QR scanned result screen contains unrelated action buttons </summary>
@@ -380,7 +370,6 @@
 - QR code is clearly readable and reliably scannable in all conditions.
 **Actual Result:**
 - QR code is scannable, but low contrast and density may affect reliability in some conditions.
-**Attachments:**
 
 </details>
 
