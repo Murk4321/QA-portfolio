@@ -38,7 +38,7 @@ Manual QA of a real Android application.
 - **Type:** Exploratory + Functional Testing
 - **Platform:** Android 16 / Google Pixel 8
 - **Artifacts:** 15 bug reports covering Critical → Improvement severity
-- **Highlights:** Found a runtime crash with stack trace, identified a WCAG 2.1 AA contrast violation (1.08:1 vs required 4.5:1), validated app behavior against its own Play Store feature description, applied Boundary Value Analysis to discover that QR generation fails silently when input exceeds rendering capacity — the app redirects to the result screen with no code displayed and no user-facing error
+- **Highlights:** Found a runtime crash with stack trace, identified a WCAG 2.1 AA contrast violation (1.08:1 vs required 4.5:1), validated app behavior against its own feature description, applied Boundary Value Analysis to discover that QR generation fails silently when input exceeds rendering capacity — the app redirects to the result screen with no code displayed and no user-facing error
 
 → [View Bug Reports](./qr-scanner/bug-reports/)
 
