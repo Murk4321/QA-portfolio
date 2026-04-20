@@ -83,7 +83,9 @@
 <summary>BUG-014: QR generation fails silently when data exceeds rendering capacity — user is redirected to result screen with no code displayed</summary>
 
   **Severity:** High
+  
   **Priority:** High
+  
   **Environment:** Google Pixel 8, Android 16
 
   **Steps to Reproduce:**
@@ -108,7 +110,9 @@
 <summary>BUG-015: Input fields expand and push UI elements out of screen bounds in multiple sections</summary>
 
   **Severity:** High
+  
   **Priority:** High
+  
   **Environment:** Google Pixel 8, Android 16
 
   **Preconditions:**
@@ -249,7 +253,9 @@
 <summary>BUG-013: Input length limit significantly exceeds actual QR generation capacity in multiple sections</summary>
 
   **Severity:** Medium
+  
   **Priority:** Medium
+  
   **Environment:** Google Pixel 8, Android 16
 
   **Preconditions:**
