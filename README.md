@@ -23,7 +23,7 @@ I approach testing with a developer's mindset: I understand how things are built
 | Area | Details |
 |---|---|
 | **Testing** | Manual Testing, Exploratory Testing, Functional Testing, Regression Testing, Negative Testing, Smoke Testing, Sanity Testing, UI/UX Testing, Accessibility Testing, Black Box Testing, White Box Testing, Risk Based Testing, Boundary Value Analysis, Test Case Design, Bug Reporting, Bug Lifecycle |
-| **Technical** | Root Cause Analysis, SDLC, OOP |
+| **Technical** | Root Cause Analysis, SDLC, OOP, HTML/CSS (reading) |
 | **Tools** | Jira, GitHub, ShareX, WebAIM, Markdown, adb, Android Studio, Visual Studio |
 | **Programming** | C#, C/C++, Python |
 
@@ -38,7 +38,7 @@ Manual QA of a real Android application.
 - **Type:** Exploratory + Functional Testing
 - **Platform:** Android 16 / Google Pixel 8
 - **Artifacts:** 15 bug reports covering Critical → Improvement severity
-- **Highlights:** Found a runtime crash with stack trace, identified a WCAG 2.1 AA contrast violation (1.08:1 vs required 4.5:1), validated app behavior against its own Play Store feature description, applied Boundary Value Analysis to identify input length limit at ~1862 characters
+- **Highlights:** Found a runtime crash with stack trace, identified a WCAG 2.1 AA contrast violation (1.08:1 vs required 4.5:1), validated app behavior against its own Play Store feature description, applied Boundary Value Analysis to discover that QR generation fails silently when input exceeds rendering capacity — the app redirects to the result screen with no code displayed and no user-facing error
 
 → [View Bug Reports](./qr-scanner/bug-reports/)
 
@@ -51,7 +51,7 @@ In-depth QA of a Unity game created solo in 5 days for a game jam. As both devel
 - **Type:** Functional Testing, UI/UX Testing, White Box Testing
 - **Platform:** PC (Windows 10 22H2), Unity Build
 - **Artifacts:** 43 test cases across 5 modules, 16 bug reports
-- **Highlights:** Full test coverage of core gameplay loop and all 4 stages; identified a game-breaking tutorial progression bug caused by missing input lock; documented reproducible stage-blocking issue where random color spawning could make a required stage objective uncompletable
+- **Highlights:** Full test coverage of core gameplay loop and all 4 stages; identified a game-breaking tutorial progression bug caused by missing input lock allowing actions to be performed out of order; documented a stage-blocking issue where fully random color spawning could make a required objective uncompletable through no fault of the player
 
 → [View Test Cases](./unity-game/test-cases/) &nbsp;|&nbsp; [View Bug Reports](./unity-game/bug-reports/)
 
@@ -80,5 +80,5 @@ I follow a structured but flexible process:
 ## Languages
 
 - 🇺🇦 Ukrainian — Native
-- 🇬🇧 English — B2
+- 🇬🇧 English — B2+
 - 🇩🇪 German — A1
