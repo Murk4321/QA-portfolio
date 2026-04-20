@@ -28,6 +28,35 @@
 **Attachments:** [Video](BUG-001-1.mp4) [Console screenshot](BUG-001-2.png)
 
 </details>
+<details>
+<summary>BUG-013: QR generation fails silently when data exceeds rendering capacity — crashes when trying to save</summary>
+
+  **Severity:** Critical
+  
+  **Priority:** High
+  
+  **Environment:** Google Pixel 8, Android 16
+
+  **Steps to Reproduce:**
+  1. Open any QR generation section (e.g. Link/URL)
+  2. Enter input that exceeds QR rendering capacity (2000 - 2500 symbols except numbers)
+  3. Tap "Generate QR"
+  4. Tap "Save"
+
+  **Expected Result:**
+  - App displays a clear error message informing the user that the input is too large to generate a QR code
+  - User remains on the input screen and can adjust their input
+
+  **Actual Result:**
+  - App redirects the user to the result screen as if generation was successful
+  - No QR code is displayed on the result screen
+  - No error message or feedback is shown to the user
+  - Warning is only visible in the console log, which is inaccessible to end users
+  - If user tries to save non-existing QR code, the app crashes
+
+**Attachments:** [Screenshot](BUG-013-1.png) [Console warning screenshot](BUG-013-2.png) [Crash log screenshot](BUG-013-3)
+
+</details>
 
 ### High
 ---
@@ -58,33 +87,7 @@
 **Attachments:** [Screenshot](BUG-002.png)
 
 </details>
-<details>
-<summary>BUG-013: QR generation fails silently when data exceeds rendering capacity — user is redirected to result screen with no code displayed</summary>
 
-  **Severity:** High
-  
-  **Priority:** High
-  
-  **Environment:** Google Pixel 8, Android 16
-
-  **Steps to Reproduce:**
-  1. Open any QR generation section (e.g. Link/URL)
-  2. Enter input that exceeds QR rendering capacity (2000 - 2500 symbols except numbers)
-  3. Tap "Generate QR"
-
-  **Expected Result:**
-  - App displays a clear error message informing the user that the input is too large to generate a QR code
-  - User remains on the input screen and can adjust their input
-
-  **Actual Result:**
-  - App redirects the user to the result screen as if generation was successful
-  - No QR code is displayed on the result screen
-  - No error message or feedback is shown to the user
-  - Error is only visible in the console log, which is inaccessible to end users
-
-**Attachments:** [Screenshot](BUG-013-1.png) [Console screenshot](BUG-013-2.png)
-
-</details>
 <details>
 <summary>BUG-014: Input fields expand and push UI elements out of screen bounds in multiple sections</summary>
 
