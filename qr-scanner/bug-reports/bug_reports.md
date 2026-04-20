@@ -54,7 +54,7 @@
   - Warning is only visible in the console log, which is inaccessible to end users
   - If user tries to save non-existing QR code, the app crashes
 
-**Attachments:** [Screenshot](BUG-013-1.png) [Console warning screenshot](BUG-013-2.png) [Crash log screenshot](BUG-013-3)
+**Attachments:** [Screenshot](BUG-013-1.png) [Console warning screenshot](BUG-013-2.png) [Crash log screenshot](BUG-013-3.png)
 
 </details>
 
