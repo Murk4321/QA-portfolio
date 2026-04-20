@@ -255,9 +255,6 @@
   
   **Environment:** Google Pixel 8, Android 16
 
-  **Preconditions:**
-  - Any affected QR generation section is open
-
   **Steps to Reproduce:**
   1. Open any of the affected sections: Email, SMS, Link/URL, Contact, Phone
   2. Fill input field(s) to maximum allowed length
