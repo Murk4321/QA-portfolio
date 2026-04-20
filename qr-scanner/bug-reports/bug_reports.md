@@ -215,8 +215,7 @@
 -	Contrast should meet accessibility and usability standards
 
 **Actual Result:**
--	White text is placed on bright yellow buttons
--	Measured contrast ratio: 1.08:1, which critically fails WCAG 2.1 AA requirement of 4.5:1 for normal text
+-	Measured contrast ratio: : 1.08:1 (purple theme) and 1.48:1 (blue theme), which critically fails WCAG 2.1 AA requirement of 4.5:1 for normal text
 
 **Attachments:** [Screenshot](BUG-009.png)
 
