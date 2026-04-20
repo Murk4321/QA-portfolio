@@ -132,7 +132,7 @@
     - Text: input field expands downward, "Generate QR" button is pushed off-screen
     - Contact: two fields expand downward pushing the button off-screen, two fields shift left
     - WiFi: input fields expand downward, "Generate QR" button is pushed off-screen
-  - In affected sections where button goes off-screen, QR generation becomes inaccessible without scrolling
+  - In affected sections where button goes off-screen, QR generation becomes inaccessible
   - Behavior is inconsistent across sections — URL section handles large input without layout issues
 
   **Attachments:** Screenshots recommended for Text, Contact, and WiFi sections
