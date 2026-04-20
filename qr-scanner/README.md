@@ -26,7 +26,7 @@ The following features were tested:
 ---
 
 ## Bugs Summary
-A total of 14 bugs were identified during testing:
+A total of 15 bugs were identified during testing:
 
 - Critical: 1
 - High: 4
