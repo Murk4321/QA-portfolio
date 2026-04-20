@@ -115,9 +115,6 @@
   
   **Environment:** Google Pixel 8, Android 16
 
-  **Preconditions:**
-  - Any affected QR generation section is open
-
   **Steps to Reproduce:**
   1. Open any of the affected sections: Text, Contact, WiFi
   2. Enter a large amount of text into any input field
