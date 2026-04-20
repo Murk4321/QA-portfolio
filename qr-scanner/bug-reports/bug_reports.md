@@ -156,7 +156,7 @@
 **Steps to Reproduce:**
 1.	Open the app
 2.	Go to Generate screen
-3.	Select URL / Link
+3. Select one of the following: URL/Link, Email, SMS, Contacts, Phone
 4.	Enter random text sequence
 5.	Generate QR
 
@@ -172,7 +172,7 @@
 
 </details>
 <details>
-<summary> BUG-005: Open button is displayed for non-URL entries in history </summary>
+<summary> BUG-005: Open button is displayed for all scanned entries in history </summary>
 
 **Severity: Medium**  
 **Priority: Low**  
@@ -181,17 +181,17 @@
 
 **Steps to Reproduce:**
 1.	Open the app
-2.	Scan or save a QR with non-URL content
+2.	Scan a QR with plain text
 3.	Open History
 4.	Open result details for that item
 5.	Check available action buttons
 
 **Expected Result:**
--	Open button should be shown only for actionable content such as URL
--	Non-URL content should show only relevant actions
+-	Open button should be shown only for actionable content such as URL or Email
+-	Non actionable content should show only relevant actions
 
 **Actual Result:**
--	Open button is displayed even when scanned content is not a URL
+-	Open button is displayed even when scanned content is plain text
   
 **Attachments:** [Screenshot](BUG-005.png)
 
