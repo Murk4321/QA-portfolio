@@ -132,7 +132,7 @@
   - In affected sections where button goes off-screen, QR generation becomes inaccessible
   - Behavior is inconsistent across sections — URL section handles large input without layout issues
 
-  **Attachments:** Screenshots recommended for Text, Contact, and WiFi sections
+  **Attachments:** [Screenshot](BUG-015.png)
 
 </details>
 
