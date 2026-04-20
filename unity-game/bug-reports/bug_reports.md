@@ -1,7 +1,5 @@
 # Bug Reports
 
----
-
 ### High
 
 <details>
