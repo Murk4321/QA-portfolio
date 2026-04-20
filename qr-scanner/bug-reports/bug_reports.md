@@ -82,7 +82,7 @@
   - No error message or feedback is shown to the user
   - Error is only visible in the console log, which is inaccessible to end users
 
-**Attachments:** [Screenshot](BUG-014-1.png) [Console screenshot](BUG-014-2.png)
+**Attachments:** [Screenshot](BUG-013-1.png) [Console screenshot](BUG-013-2.png)
 
 </details>
 <details>
@@ -111,7 +111,7 @@
   - In affected sections where button goes off-screen, QR generation becomes inaccessible
   - Behavior is inconsistent across sections — URL section handles large input without layout issues
 
-  **Attachments:** [Screenshot](BUG-015.png)
+  **Attachments:** [Screenshot](BUG-014.png)
 
 </details>
 
@@ -197,7 +197,7 @@
 **Actual Result:**
 -	Open button is displayed even when scanned content is not a URL
   
-**Attachments:** [Screenshot](BUG-006.png)
+**Attachments:** [Screenshot](BUG-005.png)
 
 </details>
 <details>
@@ -304,7 +304,7 @@
 **Actual Result:**
 - Spacing between "PRO features" text and feature blocks is too small, reducing visual clarity and UI hierarchy.
   
-**Attachments:** [Screenshot](BUG-012.png)
+**Attachments:** [Screenshot](BUG-011.png)
 
 </details>
 
@@ -335,7 +335,7 @@
     -	Themes
     -	Send to smartwatch
 
-**Attachments:** [Screenshot](BUG-007.png)
+**Attachments:** [Screenshot](BUG-006.png)
 
 </details>
 <details>
@@ -362,7 +362,7 @@
     -	Ads off
     -	Write to support
 
-**Attachments:** [Screenshot](BUG-008.png)
+**Attachments:** [Screenshot](BUG-007.png)
 
 </details>
 <details>
