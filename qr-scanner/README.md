@@ -29,7 +29,7 @@ The following features were tested:
 A total of 14 bugs were identified during testing:
 
 - Critical: 1
-- High: 3
+- High: 4
 - Medium: 5
 - Low: 2
 - Improvement: 3
