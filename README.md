@@ -37,7 +37,7 @@ Manual QA of a real Android application.
 
 - **Type:** Exploratory + Functional Testing
 - **Platform:** Android 16 / Google Pixel 8
-- **Artifacts:** 14 bug reports covering Critical → Improvement severity
+- **Artifacts:** 15 bug reports covering Critical → Improvement severity
 - **Highlights:** Found a runtime crash with stack trace, identified a WCAG 2.1 AA contrast violation (1.08:1 vs required 4.5:1), validated app behavior against its own Play Store feature description, applied Boundary Value Analysis to identify input length limit at ~1862 characters
 
 → [View Bug Reports](./qr-scanner/bug-reports/)
