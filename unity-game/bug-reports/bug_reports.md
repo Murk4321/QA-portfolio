@@ -1,8 +1,5 @@
 # Bug Reports
 
-
-### Critical
-
 ---
 
 ### High
