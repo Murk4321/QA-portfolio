@@ -368,6 +368,7 @@
 
 **Expected Result:**
 - QR code is clearly readable and reliably scannable in all conditions.
+  
 **Actual Result:**
 - QR code is scannable, but low contrast and density may affect reliability in some conditions.
 
