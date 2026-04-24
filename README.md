@@ -6,7 +6,7 @@
 
 ## About Me
 
-I'm a Junior QA Engineer with a technical background in software development, electronics, and game design. My path to QA came naturally — throughout my personal projects and two years of teaching programming and robotics, I consistently found myself doing what QA engineers do: analyzing systems, reproducing failures, identifying root causes, and verifying fixes.
+I'm a Junior QA Engineer with a technical background in software development, electronics, and game design. My path to QA came naturally — throughout my personal projects and two years of teaching programming, game development and robotics, I consistently found myself doing what QA engineers do: analyzing systems, reproducing failures, identifying root causes, and verifying fixes.
 
 I approach testing with a developer's mindset: I understand how things are built, which makes it easier to find where they break.
 
